@@ -23,8 +23,9 @@ Ventas = [
 ]
 for fila in Ventas:
     suma = sum(Ventas)
+    print(suma)
 
 
-    Venta_Maxima = max(Ventas)
-    print(f"el Vendedor {i+1} fue el con ventas mas altas con unas ventas de {Venta_Maxima}")
-    #lo di todo 
+Venta_Maxima = max(Ventas)
+print(f"el Vendedor  fue el con ventas mas altas con unas ventas de {Venta_Maxima}")
+    #Cage con este lo di todo en el 3ro y el 1ro
